@@ -1,0 +1,130 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: rgb(87, 0, 221);
+  background: radial-gradient(
+    circle,
+    rgba(87, 0, 221, 1) 0%,
+    rgba(129, 14, 255, 1) 35%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+img.logoround {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  top: 4cm;
+  display: block;
+}
+
+img.titleimg {
+  position: absolute;
+  top: -1.5cm;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: block;
+}
+
+a.link1 {
+  border: 1px solid #cdeda4;
+  position: relative;
+  top: 5cm;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 6cm;
+  padding: 0.5cm;
+  color: #cdeda4;
+}
+
+a.link2 {
+  border: 1px solid #cdeda4;
+  position: relative;
+  top: 5cm;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6cm;
+  padding: 0.5cm;
+  display: block;
+  color: #cdeda4;
+}
+
+a.link3 {
+  border: 1px solid #cdeda4;
+  position: relative;
+  top: 5cm;
+  margin-left: auto;
+  text-align: center;
+  margin-right: auto;
+  width: 6cm;
+  padding: 0.5cm;
+  display: block;
+  color: #cdeda4;
+}
+
+a.link4 {
+  border: 1px solid #cdeda4;
+  position: relative;
+  top: 5cm;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 6cm;
+  padding: 0.5cm;
+  display: block;
+  color: #cdeda4;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+img.titleimg2 {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: block;
+}
+
+img.projectimg {
+  position: relative;
+  top: 4cm;
+  display: block;
+  width: 250px;
+  left: 5cm;
+  border: hsla(0,0%,50%,.5) 6px solid;
+  background-color: transparent;
+  background-color: hsla(0, 0%, 50%, .5);
+}
+
+@font-face {
+  font-family: fontMyproject;
+  src: url(../font/MetalsmithRegular-x3yMq.ttf);
+}
+
+p.titletext {
+  position: relative;
+  top: 50px;
+  text-align: center;
+  color: #cdeda4;
+  font-size: 50px;
+  font-family: fontMyproject;
+}
+
+p.sushipicstext {
+  position: absolute;
+  color: #cdeda4;
+  top: 10cm;
+  left: 5.7cm;
+  font-size: 25px;
+}
